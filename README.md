@@ -7,6 +7,8 @@ bilingual (中／EN) narration, troop movements, front lines, weather, and a day
 Built with **Three.js (r128)** as a fully self-contained static site — **no build step, no
 backend, no API keys.** It runs from a single folder served over local HTTP.
 
+**▶ Live demo:** <https://keithligh.github.io/battle-of-hong-kong-1941/>
+
 ## Run it locally
 
 Map tiles must be loaded over HTTP (same-origin) — opening `index.html` via `file://` will
