@@ -10,7 +10,7 @@ import { camera, controls } from "./core.js";
 import { vec } from "./projection.js";
 import { Clock, setDay, lookTarget, unitById, setFocus } from "./state.js";
 import { sampleTrack } from "./entities.js";
-import { flagTexture } from "./crests.js";
+import { flagTexture } from "./flags.js";
 
 /* ===================== CAMERA & DIRECTOR ========================= */
 const TITLE_DUR=4.5;

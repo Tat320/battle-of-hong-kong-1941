@@ -5,7 +5,7 @@
  *
  *  This is the thin entry point: it wires the ES modules together, owns the
  *  per-frame loop, and runs the async init() boot sequence. The engine itself
- *  lives in the modules — config · state · core · projection · crests ·
+ *  lives in the modules — config · state · core · projection · flags ·
  *  terrain · entities · director — each a single cohesive concern.
  *  (Loaded as <script type="module">; the vendored THREE libs + data.js are
  *  classic <script>s above it, so global THREE / BATTLE_DATA exist at eval.)

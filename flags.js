@@ -1,5 +1,5 @@
 /* =====================================================================
- *  crests.js — the per-unit flag texture. Each unit flies the real
+ *  flags.js — the per-unit flag texture. Each unit flies the real
  *  national / service flag its force used in DECEMBER 1941 (not the
  *  modern flag — see the anachronism rules below). Pure canvas art; no
  *  external assets. Exports flagTexture(unit) → THREE.CanvasTexture.

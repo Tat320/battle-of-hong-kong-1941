@@ -8,7 +8,7 @@
 import { CFG, D, FAC, clamp, lerp, smooth } from "./config.js";
 import { scene, controls, skyMat, sun, hemi, amb, renderer } from "./core.js";
 import { vec, project } from "./projection.js";
-import { flagTexture } from "./crests.js";
+import { flagTexture } from "./flags.js";
 import { Time, focusSet } from "./state.js";
 import { seaMesh } from "./terrain.js";
 
