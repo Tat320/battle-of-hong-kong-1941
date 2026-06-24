@@ -3,6 +3,7 @@ lib/tiles/
 
 # Local deploy build output; generated, never published.
 deploy/
+dist/
 
 # OS / editor cruft
 .DS_Store
