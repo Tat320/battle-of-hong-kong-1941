@@ -75,8 +75,8 @@ export const hongKongTerrainMarkerOrder: TerrainSceneMarker[] = [
     focus: 'rescue',
     date: '1942.01.09',
     title: '接應與轉移',
-    detail: '交通員將人員分批送往安全點。',
-    label: '沙田路',
+    detail: '多個村落、船路與市區據點組成地下轉移網絡。',
+    label: '地下交通網絡',
     coord: [114.21, 22.38],
   },
   {
