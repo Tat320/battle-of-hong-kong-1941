@@ -47,3 +47,13 @@ test('city and Kowloon events do not claim unrelated New Territories or Hong Kon
   assert.match(entry(terrain, 'bridge-1944-04-21'), /label: '窩打老道（代表點）'/);
   assert.match(entry(terrain, 'bridge-1944-04-21'), /coord: \[114\.1737, 22\.3161\]/);
 });
+
+test('broad events are explicit representative points, while the surrender ceremony uses Government House', async () => {
+  const { history, terrain } = await loadData();
+
+  assert.match(entry(terrain, 'reorg-1943-12-02'), /label: '華南—香港聯絡區（代表點）'/);
+  assert.match(entry(history, 'sea-1944-08-15'), /location: '港外水域（具體交戰點待考）'/);
+  assert.match(entry(terrain, 'sea-1944-08-15'), /label: '港外游擊航道（代表點）'/);
+  assert.match(entry(history, 'surrender-1945-09-16'), /location: '香港總督府（今禮賓府）'/);
+  assert.match(entry(terrain, 'surrender-1945-09-16'), /coord: \[114\.1575, 22\.2786\]/);
+});
